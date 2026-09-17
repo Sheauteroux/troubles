@@ -37,7 +37,7 @@ House of Commons composition:
 <span class="tooltip-text" title="Northern Ireland Labour Party" style="color: #DC241f;">**NILP**</span>: [+ dvp_r +]%
 <span class="tooltip-text" title="Nationalist Party" style="color: #32cd32;">**Nationalist**</span>: [+ dnvp_r +]%
 <span class="tooltip-text" title="Ulster Liberal Party" style="color: #DAA520;">**Liberal**</span>: [+ ddp_r +]%
-<span style="color: #DDFFDD;">**Other Republicans**</span>: [+ z_r +]%
+<span style="color: #85de59;">**Other Republicans**</span>: [+ z_r +]%
 **Others**: [+ other_r +]%
 
 [? if spd_in_government = 1 : Budget: [+ budget +] ?]
