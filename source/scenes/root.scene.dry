@@ -313,12 +313,7 @@ Q.rural_spd_old = 8;
 Q.unemployed_spd_old = 25;
 Q.catholics_spd_old = 20;
 
-// Current Reichstag composition
-// % of Reichstag in Jan 1928
-// source: wikipedia
-// note: the Z figures also include the BVP (Bavarian people's party)
-// since they were ideologically similar, but they were separate parties.
-// They did not have a CDU/CSU-style relationship.
+//NI Parliament
 Q.spd_r = 65.4;
 Q.kpd_r = 0;
 Q.z_r = 5.8;
