@@ -200,7 +200,7 @@ on-arrival: {!
     Q.adjustmentFactors_votes_kvp = 1.0;
     Q.adjustmentFactors_votes_other = 1.0;
 
-    Q.adjustmentFactors_spd = 1.0;
+    Q.adjustmentFactors_spd = 1.31;
     Q.adjustmentFactors_sapd = 1.0;
     Q.adjustmentFactors_kpd = 1.0;
     Q.adjustmentFactors_z = 1.0;
