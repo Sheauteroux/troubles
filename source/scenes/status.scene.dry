@@ -65,11 +65,19 @@ Next Prussian election: [? if prussia_leader != "Papen" and prussia_leader != "S
 
 = Westminster
 
-Prime Minister: Prime Minister: [? if uk_prime_minister_party == "Conservative": <span style="color: #0087DC;">[+ uk_prime_minister +]</span>?][? if uk_prime_minister_party == "Labour": <span style="color: #E41C3E;">[+ uk_prime_minister +]</span>?] ([? if uk_prime_minister_party == "Labour":<span style="color: #E41C3E;">**Labour**</span>?])
+Prime Minister: [? if uk_prime_minister_party == "Conservative": <span style="color: #0087DC;">[+ uk_prime_minister +]</span>?][? if uk_prime_minister_party == "Labour": <span style="color: #E41C3E;">[+ uk_prime_minister +]</span>?] ([? if uk_prime_minister_party == "Labour":<span style="color: #E41C3E;">**Labour**</span>?][? if uk_prime_minister_party == "Conservative":<span style="color: #0087DC;">**Conservative**</span>?])
 
 Government: [+ uk_government_status +]
 
 Approval of Stormont: [+ hindenburg_angry_bruning : hindenburg_angry_bruning +]
+
+= Dublin
+
+Taoiseach: [? if taoiseach_party == "FF": <span style="color: #66BB66;">[+ taoiseach +]</span>?][? if taoiseach_party == "FG": <span style="color: #6699FF;">[+ taoiseach +]</span>?] ([? if taoiseach_party == "FF":<span style="color: #66BB66;">**FF**</span>?][? if taoiseach_party == "FG":<span style="color: #6699FF;">**FG**</span>?])
+
+Government: [+ irish_status +]
+
+Relations: [+ irish_relation : relationships +]
 
 = Economics
 
