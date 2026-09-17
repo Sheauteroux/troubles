@@ -529,7 +529,7 @@ Q.nsdap_in_government = 0;
 
 Q.uk_prime_minister = "Wilson";
 Q.uk_prime_minister_party = "Labour";
-Q.uk_government_status = "<span style="color: #E41C3E;">Labour</span> Majority"
+Q.uk_government_status = "Labour Majority"
 
 Q.spd_prussia_time = 0;
 
