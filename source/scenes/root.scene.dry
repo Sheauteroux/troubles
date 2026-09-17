@@ -531,6 +531,11 @@ Q.uk_prime_minister = "Wilson";
 Q.uk_prime_minister_party = "Labour";
 Q.uk_government_status = "Labour Majority"
 
+Q.taoiseach = "Lemass"
+Q.taoiseach_party = "FF"
+Q.irish_status = "FF Minority"
+Q.irish_relation = "54"
+
 Q.spd_prussia_time = 0;
 
 Q.in_right_coalition = 0;
