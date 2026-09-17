@@ -319,42 +319,33 @@ Q.catholics_spd_old = 20;
 // note: the Z figures also include the BVP (Bavarian people's party)
 // since they were ideologically similar, but they were separate parties.
 // They did not have a CDU/CSU-style relationship.
-Q.spd_r = 26.5;
-Q.kpd_r = 9.1;
-Q.z_r = 17.8;
-Q.ddp_r = 6.5;
-Q.dvp_r = 10.3;
-Q.dnvp_r = 20.9;
-Q.nsdap_r = 3;
-Q.other_r = 5.9;
-Q.bvp_r = 3.9;
-Q.wp_r = 2.4;
-Q.cnblp_r = 1.7;
-Q.true_other_r = 1.8;
+Q.spd_r = 65.4;
+Q.kpd_r = 0;
+Q.z_r = 5.8;
+Q.ddp_r = 1.9;
+Q.dvp_r = 7.7;
+Q.dnvp_r = 17.3;
+Q.other_r = 1.9;
 Q.reichstag_size = 4.93;
 Q.landtag_size = 4.5;
 
 // diff from prev
-Q.old_spd_r = 26.5;
-Q.old_kpd_r = 9.1;
-Q.old_z_r = 13.9;
-Q.old_ddp_r = 6.5;
-Q.old_dvp_r = 10.3;
-Q.old_dnvp_r = 20.9;
-Q.old_nsdap_r = 3;
-Q.old_other_r = 5.9;
-Q.old_bvp_r = 3.9;
+Q.old_spd_r = 65.4;
+Q.old_kpd_r = 0;
+Q.old_z_r = 5.8;
+Q.old_ddp_r = 1.9;
+Q.old_dvp_r = 7.7;
+Q.old_dnvp_r = 17.3;
+Q.old_other_r = 1.9;
 
 // old election votes
-Q.previous_spd_last_election_votes = 26;
-Q.previous_kpd_last_election_votes = 9;
-Q.previous_z_last_election_votes = 17.3;
-Q.previous_ddp_last_election_votes = 6.3;
-Q.previous_dvp_last_election_votes = 10.1;
-Q.previous_dnvp_last_election_votes = 20.5;
-Q.previous_nsdap_last_election_votes = 3;
-Q.previous_other_last_election_votes = 7.8;
-Q.previous_bvp_last_election_votes = 3.7;
+Q.previous_spd_last_election_votes = 48.8;
+Q.previous_kpd_last_election_votes = 0;
+Q.previous_z_last_election_votes = 6.7;
+Q.previous_ddp_last_election_votes = 3.6;
+Q.previous_dvp_last_election_votes = 25.4;
+Q.previous_dnvp_last_election_votes = 15.1;
+Q.previous_other_last_election_votes = 0.4;
 
 Q.old_dsu_r = 0;
 Q.old_nsdap_hitler_r = 0;
