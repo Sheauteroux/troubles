@@ -6,26 +6,14 @@ go-to: post_event if started = 1; start_menu if started = 0
 new-page: true
 go-to: start_menu_2
 
-= Social Democracy: An Alternate History
+= A Union of People: An Alternate History
 
 @start_menu_2
 
-- @start_1: Start game
+- @start: Start game
 - @modinfo: Mod Info - Last Updated 2026/08/04
 - @credits: Credits
 - @game_over.achievements
-
-@start_1
-on-arrival: player_beg = 1 if not achievement_game_completed
-go-to: start if achievement_game_completed; pls_player if not achievement_game_completed
-
-
-@pls_player
-
-Read.
-
-- @modinfo.infotext: Mod Info - Last Updated 2026/08/04
-
 
 @start
 on-arrival: {!
@@ -525,21 +513,23 @@ Q.economic_records = [];
 
 
 // State of the government
-Q.president = "Hindenburg";
-Q.president_ideology = "Hindenburg";
-// starting chancellor: Wilhelm Marx
-Q.chancellor = "Marx";
-Q.chancellor_party = 'Z';
-Q.spd_in_government = 0;
+// starting prime minister: Terence O'Neill
+Q.chancellor = "O'Neill";
+Q.chancellor_party = 'UUP';
+Q.spd_in_government = 1;
 Q.spd_in_government_time = 0;
 Q.spd_in_government_total_time = 0;
 Q.spd_in_foreign_time = 0;
-Q.z_in_government = 1;
+Q.z_in_government = 0;
 Q.ddp_in_government = 0;
-Q.dvp_in_government = 1;
-Q.dnvp_in_government = 1;
+Q.dvp_in_government = 0;
+Q.dnvp_in_government = 0;
 Q.kpd_in_government = 0;
 Q.nsdap_in_government = 0;
+
+Q.uk_prime_minister = "Wilson";
+Q.uk_prime_minister_party = "Labour";
+Q.uk_government_status = "<span style="color: #E41C3E;">Labour</span> Majority"
 
 Q.spd_prussia_time = 0;
 
@@ -557,7 +547,7 @@ Q.in_left_front = 0;
 Q.sapd_toleration = 0;
 // emergency government containing the SPD: only president Braun can do this.
 Q.in_emergency_government = 0;
-Q.in_spd_majority = 0;
+Q.in_spd_majority = 1;
 Q.grand_coalition_failed = 0;
 // if the SPD is ruling as part of a minority government
 Q.in_minority_government = 0;
