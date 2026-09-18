@@ -248,66 +248,66 @@ Q.cvp_formed = 0;
 
 // Support for party by social group
 // they don't have to sum to 100 since the electoral calculations will be normalized.
-Q.workers_spd = 55;
-Q.workers_kpd = 22;
+Q.workers_spd = 45;
+Q.workers_kpd = 0;
 Q.workers_z = 5;
-Q.workers_ddp = 2;
-Q.workers_dvp = 0;
-Q.workers_dnvp = 6;
+Q.workers_ddp = 1;
+Q.workers_dvp = 31;
+Q.workers_dnvp = 13;
 Q.workers_nsdap = 0;
-Q.workers_other = 10;
+Q.workers_other = 5;
 
-Q.new_middle_spd = 8;
-Q.new_middle_kpd = 1;
-Q.new_middle_z = 10;
-Q.new_middle_ddp = 23;
-Q.new_middle_dvp = 22;
-Q.new_middle_dnvp = 10;
-Q.new_middle_nsdap = 4;
-Q.new_middle_other = 22;
+Q.new_middle_spd = 72;
+Q.new_middle_kpd = 0;
+Q.new_middle_z = 1;
+Q.new_middle_ddp = 4;
+Q.new_middle_dvp = 9;
+Q.new_middle_dnvp = 9;
+Q.new_middle_nsdap = 0;
+Q.new_middle_other = 5;
 
-Q.old_middle_spd = 4;
+Q.old_middle_spd = 85;
 Q.old_middle_kpd = 0;
-Q.old_middle_z = 6;
-Q.old_middle_ddp = 10;
-Q.old_middle_dvp = 27;
-Q.old_middle_dnvp = 24;
-Q.old_middle_nsdap = 9;
-Q.old_middle_other = 20;
+Q.old_middle_z = 1;
+Q.old_middle_ddp = 3;
+Q.old_middle_dvp = 2;
+Q.old_middle_dnvp = 3;
+Q.old_middle_nsdap = 0;
+Q.old_middle_other = 6;
 
-Q.rural_spd = 9;
+Q.rural_spd = 65;
 Q.rural_kpd = 0;
-Q.rural_z = 5;
-Q.rural_ddp = 4;
-Q.rural_dvp = 15;
-Q.rural_dnvp = 46;
-Q.rural_nsdap = 3;
-Q.rural_other = 16;
+Q.rural_z = 4;
+Q.rural_ddp = 1;
+Q.rural_dvp = 5;
+Q.rural_dnvp = 20;
+Q.rural_nsdap = 0;
+Q.rural_other = 5;
 
-Q.unemployed_spd = 21;
-Q.unemployed_kpd = 50;
-Q.unemployed_z = 1;
-Q.unemployed_ddp = 0;
-Q.unemployed_dvp = 0;
-Q.unemployed_dnvp = 4;
-Q.unemployed_nsdap = 13;
-Q.unemployed_other = 7;
+Q.unemployed_spd = 27;
+Q.unemployed_kpd = 0;
+Q.unemployed_z = 13;
+Q.unemployed_ddp = 1;
+Q.unemployed_dvp = 30;
+Q.unemployed_dnvp = 19;
+Q.unemployed_nsdap = 0;
+Q.unemployed_other = 10;
 
-Q.catholics_spd = 21;
-Q.catholics_kpd = 2;
-Q.catholics_z = 49;
-Q.catholics_ddp = 0;
-Q.catholics_dvp = 5;
-Q.catholics_dnvp = 5;
+Q.catholics_spd = 3;
+Q.catholics_kpd = 0;
+Q.catholics_z = 15;
+Q.catholics_ddp = 2;
+Q.catholics_dvp = 11;
+Q.catholics_dnvp = 66;
 Q.catholics_nsdap = 0;
-Q.catholics_other = 16;
+Q.catholics_other = 3;
 
-Q.workers_spd_old = 60;
-Q.new_middle_spd_old = 8;
-Q.old_middle_spd_old = 4;
-Q.rural_spd_old = 8;
-Q.unemployed_spd_old = 25;
-Q.catholics_spd_old = 20;
+Q.workers_spd_old = 45;
+Q.new_middle_spd_old = 72;
+Q.old_middle_spd_old = 85;
+Q.rural_spd_old = 65;
+Q.unemployed_spd_old = 27;
+Q.catholics_spd_old = 3;
 
 //NI Parliament
 Q.spd_r = 65.4;
