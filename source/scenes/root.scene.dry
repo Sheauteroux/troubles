@@ -206,16 +206,12 @@ Q.capital_strike_progress = 0;
 
 Q.budget = 4;
 
-// Proportion of different social groups
-// source: https://surface.syr.edu/cgi/viewcontent.cgi?filename=3&article=1016&context=books&type=additional page 45, table 3.4 - using 1925 figures
-Q.workers = 48; // industry and trade
-Q.old_middle = 13; // "old mittelstand"
-// 16.4 trade & commerce, 6.6 public and private services, 4.4 domestic help
-Q.new_middle = 14; // "new mittelstand"
-Q.rural = 25; // agriculture and forestry employment... but many of those are proletarians so...
-// source: https://surface.syr.edu/cgi/viewcontent.cgi?filename=3&article=1016&context=books&type=additional page 43, table 3.3
-Q.unemployed = 8.6;
-Q.catholics = 30;
+Q.workers = 25; // industry and trade
+Q.old_middle = 3; // "old mittelstand"
+Q.new_middle = 25; // "new mittelstand"
+Q.rural = 47; // agriculture and forestry employment... but many of those are proletarians so...
+Q.unemployed = 5.5;
+Q.catholics = 34.9;
 
 // unemployment: 1929 - 13.3, 1930 - 22.7, 1931 - 34.3, 1932 - 43.8 (same source as above)
 
@@ -321,7 +317,7 @@ Q.ddp_r = 1.9;
 Q.dvp_r = 7.7;
 Q.dnvp_r = 17.3;
 Q.other_r = 1.9;
-Q.reichstag_size = 4.93;
+Q.reichstag_size = 0.52;
 Q.landtag_size = 4.5;
 
 // diff from prev
