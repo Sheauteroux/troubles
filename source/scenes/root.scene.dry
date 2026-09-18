@@ -602,20 +602,20 @@ Q.minority_government = 0;
 // is the agricultural ministry useful at all?
 Q.foreign_minister = 'Stresemann';
 Q.foreign_minister_party = 'DVP';
-Q.interior_minister = 'von Keudell';
-Q.interior_minister_party = 'DNVP';
+Q.interior_minister = 'McConnell';
+Q.interior_minister_party = 'SPD';
 Q.justice_minister = 'Hergt';
 Q.justice_minister_party = 'DNVP';
-Q.labor_minister = 'Brauns';
-Q.labor_minister_party = 'Z';
+Q.labor_minister = 'Morgan';
+Q.labor_minister_party = 'SPD';
 Q.reichswehr_minister = 'Groener';
 Q.reichswehr_minister_party = 'I';
-Q.economic_minister = 'Curtius';
-Q.economic_minister_party = 'DVP';
-Q.finance_minister = 'Köhler';
-Q.finance_minister_party = 'Z';
-Q.agriculture_minister = 'Schiele';
-Q.agriculture_minister_party = 'DNVP';
+Q.economic_minister = 'Faulkner';
+Q.economic_minister_party = 'SPD';
+Q.finance_minister = 'Neill';
+Q.finance_minister_party = 'SPD';
+Q.agriculture_minister = 'West';
+Q.agriculture_minister_party = 'SPD';
 
 // Events: what has occurred?
 Q.panzerkreuzer_seen = 0;
