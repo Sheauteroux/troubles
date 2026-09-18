@@ -700,7 +700,7 @@ th {
 }
 
 .seat.spd {
-  fill: #E3000F;
+  fill: #0087DC;
   stroke: var(--border-color);
   stroke-width: 1.5px;
 }
@@ -710,7 +710,7 @@ th {
 }
 
 .seat.z {
-  fill: #000;
+  fill: #85de59;
 }
 
 .seat.bvp {
@@ -718,7 +718,7 @@ th {
 }
 
 .seat.dvp {
-  fill: #D5AC27;
+  fill: #85de59;
 }
 
 .seat.other {
@@ -726,7 +726,7 @@ th {
 }
 
 .seat.dnvp {
-  fill: #3E88B3;
+  fill: #32cd32;
 }
 
 .seat.nsdap {
